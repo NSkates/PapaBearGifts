@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Papa Bear Gifts</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="menu.js" defer></script>
+</head>
+<body>
+  <header>
+    <h1><span id="homeHead">Papa Bear Gifts</span></h1>
+  </header>
+
+  <!-- Navigation menu -->
+  <nav>
+    <!-- The overlay -->
+    <div id="myNav" class="overlay">
+
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+    <!-- Overlay content -->
+      <div class="overlay-content">
+        <a href="index.html">Home</a>
+        <a href="aboutUs.html">About</a>
+        <a href="shipping.html">Shipping</a>
+        <a href="contactUs.html">Contact Us</a>
+      </div>
+
+    </div>
+</nav>
+
+<!-- Use any element to open/show the overlay navigation menu -->
+<span onclick="openNav()"><img id="logo" src="Images/company_logo.png" alt="Open Menu"></span>
+
+  <main>
+    <article>
+      <p>Where no used clothes go to waste! Purchase sustainable fashion at affordable prices just by your finger tips! 
+        Items sold in eBay and Poshmark. Give a used item a second chance today (and get 3 free stickers with your order)!
+      </p>
+    </article>
+
+    <!-- Pop Up  -->
+  <dialog id="myDialog">
+    <h1><i>BACK TO SCHOOL DROP INCOMING!</i></h1>
+    <p>Keep your eyes peeled  👀 ...</p>
+    <p>We have a ton of new listings on the way! Many of these clothes can be worn<br>
+      as part of your first day of school outfit OR as something to wind down for the night
+      <br> after studying for those pesky winter midterms.</p>
+      <p><i>Drop ETA: <b>Early August</b></i></p>
+      <p><i><span>Clothes can be bought on eBay and Poshmark!</span></i></p>
+
+    <button onclick="closeDialogue()">Close</button>
+  </dialog>
+
+    <img id="home-image" src="Images/tempHomeimg.jpg" alt="Sustainable Fashion" />
+
+    <section>
+      <h2><span>Links</span></h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Store Name</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>eBay</td>
+            <td><a href="https://www.ebay.com/usr/nshop-official" target="_blank">Visit the eBay Branch</a></td>
+          </tr>
+          <tr>
+            <td>Poshmark</td>
+            <td><a href="https://poshmark.com/closet/nskates" target="_blank">Visit the Poshmark Branch</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+
+<section>
+  <h2><span>Reviews</span></h2>
+<div class="card-container">
+  <div class="card-slider">
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/review_img1.jpg" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>Figure Skating Practice Pants</h2>
+        <p>"The pants are very stylish. I out dressed everyone else on the ice." -bfcapps445 </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/rev2.png" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>KBeauty Products Bundle</h2>
+        <p>"Beautifully wrapped, great products. Lovely smell, cannot wait to use them. Thank you for taking such great care with my order. Bless you." -Synergy </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/rev3.png" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>Fino Premium Touch Shampoo</h2>
+        <p>"Great seller!!! Smooth transaction, fantastic communication and fast shipping. Thank you very much." -lsebring2525 </p>
+      </div>
+    </div>
+
+    <!-- Duplicate set (for seamless loop) -->
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/review_img1.jpg" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>Figure Skating Practice Pants</h2>
+        <p>"The pants are very stylish. I out dressed everyone else on the ice." -bfcapps445 </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/rev2.png" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>KBeauty Products Bundle</h2>
+        <p>"Beautifully wrapped, great products. Lovely smell, cannot wait to use them. Thank you for taking such great care with my order. Bless you." -Synergy </p>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-image">
+        <img src="Images/rev3.png" alt="Satisfied Customer"/>
+      </div>
+      <div class="card-overlay">
+        <h2>Fino Premium Touch Shampoo</h2>
+        <p>"Great seller!!! Smooth transaction, fantastic communication and fast shipping. Thank you very much." -lsebring2525 </p>
+      </div>
+    </div>
+  </div>
+</div>
+
+  </main>
+
+  <!-- Footer content -->
+  <footer>
+    <hr>
+    <p>&copy; 2026 Papa Bear Gifts. All rights reserved.</p>
+  </footer>
+</body>
+</html>
